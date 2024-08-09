@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet"> 
+  <title>Frontend Mentor | Contact form</title>
+
+  
+</head>
+<body>
+<div class="contact">
+  <h1>Contact Us</h1>
+  <form>
+    <div class="f-two">
+      <label for="firstname">First Name*</label>
+  <input type="text" id="firstname" name="firstname" required>
+  <label for="lastname">Last Name</label>
+  <input type="text">
+  </div>
+  <label for="email">Email Address </label>
+  <input type="email">
+  <label for="querytype">Query type</label>
+  <div class="radio-group"><label><input type="radio" name="querytype" value="General" requird>General Enquiry</label>
+    <label><input type="radio" name="querytype" value="support">Support Request</label>
+  </div>
+  <label for="message">Message*</label>
+  <textarea id="message" name="message" required></textarea>
+  <label>
+    <input type="checkbox" name="consent" required> I consent to being contacted by the team
+  </label>
+  <button type="submit" class="submit-btn">Submit</button>
+  </form>
+ 
+</div>
+
+</body>
+</html>
